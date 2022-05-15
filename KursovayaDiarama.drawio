@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T10:32:58.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="Ig2ZPkcvgtApcH3kvB0D" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T10:34:31.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="qr-Q-8DplhZxKZjqNQT-" version="18.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2299" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="_Au37B9Xq9A6k-u9n0Tx-3" value="Пользователь" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="390" y="220" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-4" value="Фамилия&#xa;Имя&#xa;Отчество&#xa;Никнейм&#xa;Электронная Почта&#xa;Номер телефона&#xa;Электронный баланс&#xa;Купленная игра&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-3" vertex="1">
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-4" value="Фамилия&#xa;Имя&#xa;Отчество&#xa;Никнейм&#xa;Электронная Почта&#xa;Номер телефона&#xa;Электронный кошелёк&#xa;Купленная игра&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-3" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="_Au37B9Xq9A6k-u9n0Tx-18" value="Компания-издатель" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -64,10 +64,10 @@
             <mxPoint x="640" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-17" value="Электронный баланс" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-17" value="Электронный кошелёк" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="620" y="215" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-18" value="Количество валюты&#xa;Номер карты&#xa;Номер электронного счёта&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-17">
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-18" value="Баланс&#xa;Номер карты&#xa;Номер электронного счёта&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-17">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NNDmnkQxz7l0B0d6Krk1-17" target="_Au37B9Xq9A6k-u9n0Tx-4">
