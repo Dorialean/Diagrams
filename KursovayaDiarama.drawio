@@ -1,25 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T19:42:52.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="lilvsW_cN7u7lQWEU1pC" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T10:11:28.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="6J4gRVYSBhjtwH9YzV_F" version="18.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1449" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2299" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-1" value="Игра" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="10" y="160" width="160" height="120" as="geometry" />
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-1" value="Игра" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-2" value="Название&#xa;Год выпуска&#xa;Краткая аннотация&#xa;Цена&#xa;Жанр" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_Au37B9Xq9A6k-u9n0Tx-1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-2" value="Название&#xa;Год выпуска&#xa;Краткая аннотация&#xa;Цена&#xa;Игровой жанр&#xa;Версия&#xa;Количество-игроков&#xa;Отзыв" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-1" vertex="1">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-3" value="Пользователь" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="360" y="30" width="160" height="160" as="geometry" />
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-3" value="Пользователь" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="100" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-4" value="Фамилия&#xa;Имя&#xa;Отчество&#xa;Никнейм&#xa;Электронная Почта&#xa;Номер телефона&#xa;Электронный баланс&#xa;Список купленных игр&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_Au37B9Xq9A6k-u9n0Tx-3">
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-4" value="Фамилия&#xa;Имя&#xa;Отчество&#xa;Никнейм&#xa;Электронная Почта&#xa;Номер телефона&#xa;Электронный баланс&#xa;Купленная игра&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-3" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-18" value="Компания" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="380" y="280" width="160" height="80" as="geometry" />
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-18" value="Компания-издатель" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="390" y="280" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-19" value="Название&#xa;Год основания&#xa;Список созданных игр" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_Au37B9Xq9A6k-u9n0Tx-18">
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-19" value="Название&#xa;Электронная почта&#xa;Сайт&#xa;Год основания&#xa;Изданная игра&#xa;Компании-сотрудники" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-18" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=-0.002;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.994;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_Au37B9Xq9A6k-u9n0Tx-4" target="_Au37B9Xq9A6k-u9n0Tx-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="630" y="280" as="sourcePoint" />
+            <mxPoint x="730" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.006;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_Au37B9Xq9A6k-u9n0Tx-19" target="_Au37B9Xq9A6k-u9n0Tx-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450.64000000000004" y="230.00000000000003" as="sourcePoint" />
+            <mxPoint x="260" y="251.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-10" value="Отзыв" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="330" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-11" value="Автор&#xa;Содержание&#xa;Дата отправки" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-10">
+          <mxGeometry y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-12" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=1.006;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_Au37B9Xq9A6k-u9n0Tx-2" target="NNDmnkQxz7l0B0d6Krk1-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="60" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-13" value="Компания-разработчик" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-140" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-14" value="Название&#xa;Электронная почта&#xa;Сайт&#xa;Год основания&#xa;Созданная игра" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-13">
+          <mxGeometry y="30" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1.002;entryY=0.896;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_Au37B9Xq9A6k-u9n0Tx-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="760" y="-122" as="sourcePoint" />
+            <mxPoint x="610" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=1.01;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.006;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NNDmnkQxz7l0B0d6Krk1-14" target="_Au37B9Xq9A6k-u9n0Tx-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="790" y="10" as="sourcePoint" />
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-17" value="Электронный баланс" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="215" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-18" value="Количество валюты&#xa;Номер карты&#xa;Номер электронного счёта&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-17">
           <mxGeometry y="30" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
