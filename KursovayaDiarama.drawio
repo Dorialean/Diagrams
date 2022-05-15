@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T10:34:31.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="qr-Q-8DplhZxKZjqNQT-" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T10:38:32.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="_SdsJvO2KnTazFkWInuf" version="18.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2299" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3265" dy="2193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,15 @@
             <mxPoint x="40" y="140" as="sourcePoint" />
             <mxPoint x="140" y="40" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="840" y="-440" width="1190" height="805" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-31" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=150;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-32">
+          <mxGeometry y="5" width="1190" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-30" value="&lt;h1&gt;Устройство электронной игротеки&lt;/h1&gt;&lt;p&gt;На данной &quot;сущность-связь&quot; диаграмма предоставлена работа системы электронной игротеки&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-32">
+          <mxGeometry width="230" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
