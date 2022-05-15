@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T11:07:49.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="uReVPWzn5VUepu63UMMp" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T11:09:22.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="UMr55XXRyekHvawoZB9f" version="18.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="5680" dy="3287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="4070" dy="2558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,15 +106,6 @@
             <mxPoint x="140" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-350" y="-370" width="1250" height="870" as="geometry" />
-        </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-31" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=150;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-32">
-          <mxGeometry y="5.403726708074535" width="1250" height="864.5962732919255" as="geometry" />
-        </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-30" value="&lt;h1&gt;Устройство электронной игротеки&lt;/h1&gt;&lt;p&gt;На данной &quot;сущность-связь&quot; диаграмма предоставлена работа системы электронной игротеки&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-32">
-          <mxGeometry width="241.5966386554622" height="183.72670807453417" as="geometry" />
-        </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-33" value="Игровое звуковое сопровождение" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="-290" y="-60" width="230" height="110" as="geometry">
             <mxRectangle x="-100" y="10" width="250" height="30" as="alternateBounds" />
@@ -122,6 +113,18 @@
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-34" value="Композитор&#xa;&#xa;Длина музыкального произведения&#xa;&#xa;Цена" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-33">
           <mxGeometry y="30" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-350" y="-310" width="1250" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-46" value="" style="group" vertex="1" connectable="0" parent="NNDmnkQxz7l0B0d6Krk1-32">
+          <mxGeometry width="1250" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-31" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=150;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-46">
+          <mxGeometry y="0.0034913642613379208" width="1250" height="809.9965086357387" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-30" value="&lt;h1&gt;Устройство электронной игротеки&lt;/h1&gt;&lt;p&gt;На данной &quot;сущность-связь&quot; диаграмма предоставлена работа системы электронной игротеки&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-46">
+          <mxGeometry width="241.59663865546216" height="172.12425808509448" as="geometry" />
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-35" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=1.006;exitY=0.133;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NNDmnkQxz7l0B0d6Krk1-33">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
