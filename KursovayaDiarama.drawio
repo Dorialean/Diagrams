@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T10:27:24.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="4CWV-LQRe293n94Bek1V" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T10:32:10.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="ROnmFoOVKQBq7qta5Vej" version="18.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2299" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_Au37B9Xq9A6k-u9n0Tx-1" value="Игра" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="170" width="160" height="150" as="geometry" />
+          <mxGeometry x="70" y="170" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-2" value="Название&#xa;Год выпуска&#xa;Аннотация&#xa;Цена&#xa;Игровой жанр&#xa;Версия&#xa;Количество-игроков&#xa;Отзыв" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-1" vertex="1">
-          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        <mxCell id="_Au37B9Xq9A6k-u9n0Tx-2" value="Название&#xa;Аннотация&#xa;Цена&#xa;Версия&#xa;Отзыв" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_Au37B9Xq9A6k-u9n0Tx-1" vertex="1">
+          <mxGeometry y="30" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_Au37B9Xq9A6k-u9n0Tx-3" value="Пользователь" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="390" y="220" width="160" height="160" as="geometry" />
@@ -86,6 +86,18 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="460" y="140" as="sourcePoint" />
             <mxPoint x="560" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-26" value="Аннотация" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="20" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-27" value="Описание сюжета&#xa;Описание игрового процесса&#xa;Количество-игроков&#xa;Год выпуска&#xa;Игровой жанр" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="NNDmnkQxz7l0B0d6Krk1-26">
+          <mxGeometry y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0.998;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.006;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_Au37B9Xq9A6k-u9n0Tx-1" target="NNDmnkQxz7l0B0d6Krk1-26">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="40" y="140" as="sourcePoint" />
+            <mxPoint x="140" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
