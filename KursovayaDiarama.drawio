@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T14:22:08.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="_2MMum_tNdtRjqrNyHk3" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T15:02:43.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="K2dx9csmC4ZSYVJkhJb0" version="18.1.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2830" dy="3253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3820" dy="4330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,10 +41,10 @@
           <mxGeometry y="30" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-17" value="Электронный кошелёк" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="620" y="240" width="190" height="140" as="geometry" />
+          <mxGeometry x="620" y="240" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-18" value="Номер электронного счёта (PK)&#xa;&#xa;Баланс&#xa;&#xa;Номер карты&#xa;&#xa;Номер электронного счёта&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="NNDmnkQxz7l0B0d6Krk1-17" vertex="1">
-          <mxGeometry y="30" width="190" height="110" as="geometry" />
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-18" value="Номер электронного счёта (PK)&#xa;&#xa;Баланс&#xa;&#xa;Номер карты" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="NNDmnkQxz7l0B0d6Krk1-17" vertex="1">
+          <mxGeometry y="30" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=1.001;entryY=0.825;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NNDmnkQxz7l0B0d6Krk1-18" target="_Au37B9Xq9A6k-u9n0Tx-4" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -77,18 +77,6 @@
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-34" value="Номер документа авторского права (PK)&#xa;&#xa;Композитор&#xa;&#xa;Длина музыкального произведения&#xa;&#xa;Цена" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="NNDmnkQxz7l0B0d6Krk1-33" vertex="1">
           <mxGeometry y="30" width="260" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-32" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-440" y="-460" width="1950" height="1140" as="geometry" />
-        </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-46" value="" style="group" parent="NNDmnkQxz7l0B0d6Krk1-32" vertex="1" connectable="0">
-          <mxGeometry width="1950" height="1140" as="geometry" />
-        </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-31" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=150;" parent="NNDmnkQxz7l0B0d6Krk1-46" vertex="1">
-          <mxGeometry y="0.004913771923364481" width="1950" height="1139.9950862280766" as="geometry" />
-        </mxCell>
-        <mxCell id="NNDmnkQxz7l0B0d6Krk1-30" value="&lt;h1&gt;Устройство электронной игротеки&lt;/h1&gt;&lt;p&gt;На данной &quot;сущность-связь&quot; диаграмма предоставлена работа системы электронной игротеки&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="NNDmnkQxz7l0B0d6Krk1-46" vertex="1">
-          <mxGeometry width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="NNDmnkQxz7l0B0d6Krk1-36" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=-0.002;exitY=0.401;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="_Au37B9Xq9A6k-u9n0Tx-2" target="NNDmnkQxz7l0B0d6Krk1-33" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -146,6 +134,21 @@
             <mxPoint x="570" y="-180" as="sourcePoint" />
             <mxPoint x="670" y="-280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w8uJtYVkUi0yPmKOo0ER-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-425" y="-469.9950862280766" width="1960" height="1169.9950862280766" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-31" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=150;" parent="w8uJtYVkUi0yPmKOo0ER-13" vertex="1">
+          <mxGeometry width="1950" height="1139.9950862280766" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-32" value="" style="group" parent="w8uJtYVkUi0yPmKOo0ER-13" vertex="1" connectable="0">
+          <mxGeometry x="10" y="9.995086228076616" width="1950" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-46" value="" style="group" parent="NNDmnkQxz7l0B0d6Krk1-32" vertex="1" connectable="0">
+          <mxGeometry width="1950" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="NNDmnkQxz7l0B0d6Krk1-30" value="&lt;h1&gt;Устройство электронной игротеки&lt;/h1&gt;&lt;p&gt;На данной &quot;сущность-связь&quot; диаграмма предоставлена работа системы электронной игротеки&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="NNDmnkQxz7l0B0d6Krk1-46" vertex="1">
+          <mxGeometry width="230" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
